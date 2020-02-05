@@ -12,7 +12,9 @@ public class HelloController {
 
     @RequestMapping("info")
     public String info() {
-        return "Hello SpringBoot Info";
+        System.out.println("Hello SpringBoot Info");
+        System.out.println("hot fix...");
+        return "";
     }
 
     //开发人员写了一段话
